@@ -24,4 +24,16 @@
     h6 {
       font-size: .67em;
     }
+    label {
+        @apply font-bold mb-2 text-gray-700 text-sm;
+    }
+    input, textarea {
+        @apply shadow appearance-none border rounded py-2 px-3 text-gray-700 leading-tight w-full mb-4;
+    }
+    select {
+        @apply appearance-none w-40 bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight;
+    }
+    button {
+        @apply rounded py-2 px-4 my-4 text-white;
+    }
   }
